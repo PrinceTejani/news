@@ -2,3 +2,4 @@
 # newsify
 # newsify-react
 # news
+# news
