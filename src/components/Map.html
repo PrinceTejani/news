@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        let arr = [
+            {
+                name: "darshit",
+                age: 500,
+                abc: "DEF"
+            },
+
+            {
+                name: "darshit",
+                age: 500,
+                abc: "DEF"
+            }
+        ]
+
+        let b = arr.map(newfun);
+
+        function newfun(x){
+            return x.name+x.age;
+        }
+            document.write(b);
+
+    </script>
+</body>
+
+</html>
